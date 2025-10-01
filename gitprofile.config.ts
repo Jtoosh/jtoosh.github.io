@@ -14,18 +14,18 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['chess-old'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['note-of-the-day', 'byu-cs312', 'byu-cs240', 'byu-cs240'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -51,18 +51,17 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'James Teuscher', description: '', imageURL: '' },
+  seo: { title: 'Portfolio: James Teuscher', description: '', imageURL: '' },
   social: {
     linkedin: 'James Teuscher',
     facebook: 'James Teuscher',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
-    website: 'https://www.arifszn.com',
     email: 'james.teuscher@outlook.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://mega.nz/file/YUQAjLbY#wYXZ5SKzvffz5Zs6wA65xSZ-CYInAyX2vZv14L-zNw0', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -94,14 +93,14 @@ const CONFIG = {
       companyLink: 'https://example.com',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   educations: [
     {
       institution: 'Brigham Young University',
