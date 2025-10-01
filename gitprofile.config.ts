@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['note-of-the-day', 'byu-cs312', 'byu-cs240', 'byu-cs240'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['note-of-the-day', 'byu-cs312', 'byu-cs260', 'byu-cs240'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
