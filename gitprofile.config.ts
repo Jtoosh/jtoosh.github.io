@@ -16,16 +16,16 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['chess-old', 'byu-cs224', 'byu-cs324', 'byu-cs111', 'byu-itc210'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['jtoosh/chess-old', 'jtoosh/byu-cs224', 'jtoosh/byu-cs324', 'jtoosh/byu-cs111', 'jtoosh/byu-itc210'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['note-of-the-day', 'byu-cs312', 'byu-cs260', 'byu-cs240'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['jtoosh/note-of-the-day', 'jtoosh/byu-cs312', 'jtoosh/byu-cs260', 'jtoosh/byu-cs240'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
