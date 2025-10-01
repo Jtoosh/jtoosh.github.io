@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['jtoosh/chess-old', 'jtoosh/byu-cs224', 'jtoosh/byu-cs324', 'jtoosh/byu-cs111', 'jtoosh/byu-itc210'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['jtoosh/chess-old', 'jtoosh/byu-cs224', 'jtoosh/web-portfolio', 'jtoosh/byu-cs111', 'jtoosh/byu-itc210'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
