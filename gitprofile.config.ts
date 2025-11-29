@@ -41,17 +41,13 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-     
-      ],
+      
     },
   },
   seo: { title: 'Portfolio: James Teuscher', description: '', imageURL: '' },
   social: {
-    linkedin: 'www.linkedin.com/in/james-teuscher-871a69316',
-    facebook: 'James Teuscher',
+    linkedin: '',
+    facebook: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     email: 'james.teuscher@outlook.com',
