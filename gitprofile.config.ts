@@ -11,6 +11,7 @@ const CONFIG = {
    */
   base: '/',
   projects: {
+    // Note: repos need to be public, or they will not be displayed, regardless of the local configuration
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
@@ -20,40 +21,36 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['jtoosh/chess-old', 'jtoosh/byu-cs224', 'jtoosh/web-portfolio', 'jtoosh/byu-cs111', 'jtoosh/byu-itc210'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [
+            'jtoosh/chess-old',
+            'jtoosh/byu-cs224',
+            'jtoosh/web-portfolio',
+            'jtoosh/byu-cs111',
+            'jtoosh/byu-itc210',
+          ], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['jtoosh/note-of-the-day', 'jtoosh/byu-cs312', 'jtoosh/byu-cs260', 'jtoosh/byu-cs240'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'jtoosh/note-of-the-day',
+          'jtoosh/byu-cs312',
+          'jtoosh/byu-cs260',
+          'jtoosh/byu-cs240',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+     
       ],
     },
   },
   seo: { title: 'Portfolio: James Teuscher', description: '', imageURL: '' },
   social: {
-    linkedin: 'James Teuscher',
+    linkedin: 'www.linkedin.com/in/james-teuscher-871a69316',
     facebook: 'James Teuscher',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
@@ -61,7 +58,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://mega.nz/file/YUQAjLbY#wYXZ5SKzvffz5Zs6wA65xSZ-CYInAyX2vZv14L-zNw0', // Empty fileUrl will hide the `Download Resume` button.
+      'https://mega.nz/file/MIh0lT6Y#ZGsZWiAitmldigPuQnRR64wMFFMAomunJAt3VRaxI0E', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -196,7 +193,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Made with <a
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
