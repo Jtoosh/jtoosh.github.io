@@ -15,7 +15,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'manual', // Mode can be: 'automatic' or 'manual'
+      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -60,22 +60,32 @@ const CONFIG = {
     'JavaScript',
     'TypeScript',
     'Python',
-    'Java',
+    'Java/Kotlin',
     'React.js',
-    'Node.js',
+    'Node.js, Bun',
+    'Swift',
+    'Go',
     'SQL',
-    'Git',
+    'Git and GitHub',
+    'Terraform',
+    'AWS',
     'Docker',
-    'CSS',
-    'Tailwind',
+    'Tailwind CSS',
     'Command Line',
   ],
   experiences: [
     {
+      company: 'Brigham Young University - Office of Information Technology',
+      position: 'Software Engineeer',
+      from: 'April 2026',
+      to: 'Present',
+      companyLink: 'https://oit.byu.edu/'
+    },
+    {
       company: 'Brigham Young University - Religious Education',
       position: 'Computer Support Representative',
       from: 'September 2023',
-      to: 'Present',
+      to: 'April 2026',
       companyLink: 'https://religion.byu.edu/',
     },
     {
@@ -97,7 +107,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'Brigham Young University',
-      degree: 'BS in Computer Science',
+      degree: 'BS in Computer Science, Minor in Mathematics',
       from: '2023',
       to: '2027',
     },
