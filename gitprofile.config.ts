@@ -27,6 +27,7 @@ const CONFIG = {
             'jtoosh/web-portfolio',
             'jtoosh/byu-cs111',
             'jtoosh/byu-itc210',
+            'jtoosh/jtoosh'
           ], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -46,15 +47,15 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio: James Teuscher', description: '', imageURL: '' },
   social: {
-    linkedin: '',
+    linkedin: 'www.linkedin.com/in/james-teuscher-871a69316',
     facebook: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '31470935/james-teuscher', // example: '1/jeff-atwood'
     discord: '',
     email: 'james.teuscher@outlook.com',
   },
   resume: {
     fileUrl:
-      'https://mega.nz/file/MIh0lT6Y#ZGsZWiAitmldigPuQnRR64wMFFMAomunJAt3VRaxI0E', // Empty fileUrl will hide the `Download Resume` button.
+      'https://mega.nz/file/cJxC2CrD#r9PMHAd4utssUWPVjPUyhGsuXkUcNAIPQq3hOOZXZNA', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
